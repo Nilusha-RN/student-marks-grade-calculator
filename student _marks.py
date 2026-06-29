@@ -5,6 +5,8 @@ database_mark = int(input("Enter Database mark: "))
 web_mark = int(input("Enter Web Development mark: "))
 
 total = python_mark + database_mark + web_mark
+average = total / 3
 
 print("\nStudent Name:", name)
 print("Total Marks:", total)
+print("Average:", average)
