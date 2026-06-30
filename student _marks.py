@@ -18,7 +18,13 @@ elif average >= 40:
 else:
     grade = "F"
 
+if python_mark < 40 or database_mark < 40 or web_mark < 40:
+    result = "Fail"
+else:
+    result = "Pass"
+
 print("\nStudent Name:", name)
 print("Total Marks:", total)
 print("Average:", average)
 print("Grade:", grade)
+print("Result:", result)
